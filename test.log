@@ -1,0 +1,41 @@
+Oct 30, 2019 10:32:59 PM log main
+INFO: Hello
+Oct 30, 2019 10:32:59 PM log main
+INFO: hello
+java.lang.Exception: Dai
+	at log.main(log.java:16)
+
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-30T22:34:01</date>
+  <millis>1572455041827</millis>
+  <sequence>0</sequence>
+  <logger>log</logger>
+  <level>INFO</level>
+  <class>log</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hello</message>
+</record>
+<record>
+  <date>2019-10-30T22:34:01</date>
+  <millis>1572455041923</millis>
+  <sequence>1</sequence>
+  <logger>log</logger>
+  <level>INFO</level>
+  <class>log</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>hello</message>
+  <exception>
+    <message>java.lang.Exception: Dai</message>
+    <frame>
+      <class>log</class>
+      <method>main</method>
+      <line>16</line>
+    </frame>
+  </exception>
+</record>
+</log>
